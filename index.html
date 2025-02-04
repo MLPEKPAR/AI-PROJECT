@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MLs AI PROJECT</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>AI WOD generator</h1>
       <main>
         <form id="form">
-          <input type="text" placeholder="Enter WOD type" class="request" />
+          <input
+            type="text"
+            placeholder="Use mainly keywords (eg. AMRAP 20 min dumbells)"
+            class="request"
+            id="request"
+          />
           <input type="submit" value="SEARCH" class="submit" />
         </form>
 
