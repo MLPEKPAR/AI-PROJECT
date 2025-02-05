@@ -12,6 +12,9 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 35px;
+  font-size: 40px;
+  font-family: cursive;
+  font-style: oblique 10deg;
 }
 
 form {
@@ -39,14 +42,30 @@ form {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  cursor: grab;
 }
 
 .answer {
   background-color: cornsilk;
-  line-height: 18px;
+  line-height: 25px;
   padding: 20px 10px 20px 40px;
   margin: 35px auto;
   box-shadow: -10px -8px 20px 5px rgb(244, 242, 235);
+  cursor: none;
+}
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 footer {

@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MLs AI PROJECT</title>
+    <title>WOD GEN</title>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
   </head>
   <body>
     <div class="container">
-      <h1>AI WOD generator</h1>
+      <h1>Workout of the Day </br>(WOD) generator</h1>
       <main>
         <form id="form">
           <input
@@ -21,12 +23,7 @@
           <input type="submit" value="SEARCH" class="submit" />
         </form>
 
-        <div class="answer" id="answer">
-          AMRAP 10 minutes <br />
-          24 wallballs <br />
-          12 power clean <br />
-          6 burpees to MU
-        </div>
+        <div class="answer hidden" id="answer"></div>
       </main>
       <footer>
         AI project coded by
