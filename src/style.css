@@ -13,8 +13,7 @@ h1 {
   text-align: center;
   margin-bottom: 35px;
   font-size: 40px;
-  font-family: cursive;
-  font-style: oblique 10deg;
+  font-family: "Permanent Marker", serif;
 }
 
 form {
@@ -23,6 +22,7 @@ form {
   background-color: cornsilk;
   padding: 30px 10px;
   margin: 15px auto;
+  border-radius: 5px;
   box-shadow: -10px -8px 20px 5px rgb(244, 242, 235);
 }
 
@@ -50,8 +50,8 @@ form {
   line-height: 25px;
   padding: 20px 10px 20px 40px;
   margin: 35px auto;
+  border-radius: 5px;
   box-shadow: -10px -8px 20px 5px rgb(244, 242, 235);
-  cursor: none;
 }
 
 .blink_me {
@@ -74,5 +74,6 @@ footer {
 }
 
 a {
-  color: #53b7b7;
+  color: #1d9090;
+  font-weight: 500;
 }
