@@ -1,5 +1,9 @@
 body {
-  background: #b3e9e9;
+  background: linear-gradient(
+    179.1deg,
+    rgb(43, 170, 96) 2.3%,
+    rgb(129, 204, 104) 98.3%
+  );
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -12,25 +16,25 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 35px;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Permanent Marker", serif;
-  color: aliceblue;
+  color: white;
 }
 
 form {
   display: flex;
   justify-content: space-around;
-  background-color: cornsilk;
+  background-color: whitesmoke;
   padding: 30px 10px;
   margin: 15px auto;
   border-radius: 5px;
-  box-shadow: -10px -8px 20px 5px rgb(244, 242, 235);
+  box-shadow: -5px -5px 15px 10px whitesmoke;
 }
 
 .request {
   padding: 15px 10px;
   width: 72%;
-  border: 2px solid #6fd6d6;
+  border: 2.5px solid #434343;
   border-radius: 20px;
   font-size: 16px;
 }
@@ -39,7 +43,7 @@ form {
   padding: 15px;
   border: none;
   border-radius: 20px;
-  background-color: #6fd6d6;
+  background-color: #434343;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -52,15 +56,16 @@ form {
   padding: 20px 10px 20px 40px;
   margin: 35px auto;
   border-radius: 5px;
-  box-shadow: -10px -8px 20px 5px rgb(244, 242, 235);
+  border: 10px groove white;
+  box-shadow: -10px -8px 20px 5px #434343;
   font-family: "Mansalva", serif;
   font-size: 20px;
   font-weight: 600;
-  color: antiquewhite;
+  color: white;
 }
 
-.blink_me {
-  animation: blinker 2s linear infinite;
+.blink-me {
+  animation: blinker 1.5s linear infinite;
 }
 
 @keyframes blinker {
@@ -79,6 +84,6 @@ footer {
 }
 
 a {
-  color: #1d9090;
-  font-weight: 500;
+  color: #217f48;
+  font-weight: 600;
 }
